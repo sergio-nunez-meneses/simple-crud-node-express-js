@@ -56,4 +56,4 @@ Deletes product with given ID.
 
 Returns `{ message: 'Deleted!' }`
 
-### Open the [backend](https://github.com/sergio-nunez-meneses/simple-crud-node-express-js/tree/master/backend) folder to see my solution, or follow the steps of the backend's [README.md](https://github.com/sergio-nunez-meneses/simple-crud-node-express-js/blob/master/backend/README.md) file to setup the base structure of the project ###
+### Open the [backend](https://github.com/sergio-nunez-meneses/simple-crud-node-express-js/tree/master/backend) folder to find out my solution, or follow the steps of the backend's [README.md](https://github.com/sergio-nunez-meneses/simple-crud-node-express-js/blob/master/backend/README.md) file to setup the base structure of the project. ###
