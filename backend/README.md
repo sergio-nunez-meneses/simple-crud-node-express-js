@@ -79,6 +79,6 @@
 
     - Fix the **CORS** bug
 
-    - Create the routers in order to implement the requested **CRUD**
+    - Create the routes in order to implement the requested **CRUD**
 
     - Export the ```app``` module
