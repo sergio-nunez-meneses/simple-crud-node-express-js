@@ -3,17 +3,21 @@
 1. ```mkdir backend```
 
   1.1 ```cd backend```
+
 2. ```npm init```
 
   2.1 ```entry point: (index.js) server.js```
 
   2.2 ```touch server.js```
+
 3. ```npm install -g nodemon```
+
 4. ```npm install express --save```
 
   4.1 ```touch app.js```
 
 5. ```npm install body-parser --save ```
+
 6. ```npm install mongoose --save```
 
   6.1 ```mkdir models```
@@ -21,6 +25,7 @@
   6.2 ```cd models```
 
   6.3 ```touch mongo.js```
+
    - Fill this file with your personal database information:
    ```js
    module.exports = function() {
@@ -31,6 +36,7 @@
    ```
 
   6.4 ```touch connection.js```
+
     - Fill this file with the following code:
     ```js
     const mongo = require('./mongo')();
@@ -53,6 +59,7 @@
     ```
 
   6.5 ```touch Product.js```
+
    - Fill this file with the following code:
    ```js
    const mongoose = require('mongoose');
@@ -66,6 +73,9 @@
    ```
 
 7. Next steps are up to you:
+
   - Fix the **CORS** bug
+
   - Create the routers in order to implement the requested **CRUD**
+
   - Export the ```app``` module
