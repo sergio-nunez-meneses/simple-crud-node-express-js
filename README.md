@@ -19,7 +19,7 @@ The frontend app requires the following endpoints with the correct behavior for 
 * GET `/api/products`
 
 Returns all products as `{ products: Product[] }`
-* GET: `/api/products/:id` 
+* GET: `/api/products/:id`
 
 Returns product for given ID as `{ product: Product }`
 * POST: `/api/products`
